@@ -32,7 +32,7 @@ A STIGMan Watcher instance that watches a filesystem path for checklist (`.ckl`,
 
 ## Quick start
 
-> ⚠️ The provided compose files are reference deployments intended for evaluation and development. They are **not** production-ready - they do not include CAC authentication, persistent storage hardening, MTLS database connections, log archiving, or other production controls.
+> The provided compose files are reference deployments intended for evaluation and development. They are **not** production-ready - they do not include CAC authentication, persistent storage hardening, MTLS database connections, log archiving, or other production controls.
 
 1. Clone the repository:
    ```bash
