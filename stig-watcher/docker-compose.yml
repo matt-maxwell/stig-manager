@@ -1,0 +1,20 @@
+services:
+  stigman-watcher:
+    image: rqinfra/stigman-watcher:v1.0
+    container_name: stigman-watcher
+    restart: unless-stopped
+    environment:
+      - WATCHER_PATH=${WATCHER_PATH}
+      - WATCHER_MODE=${WATCHER_MODE}
+      - WATCHER_API_BASE=${WATCHER_API_BASE}
+      - WATCHER_AUTHORITY=${WATCHER_AUTHORITY}
+      - WATCHER_CLIENT_ID=${WATCHER_CLIENT_ID}
+      - WATCHER_CLIENT_SECRET=${WATCHER_CLIENT_SECRET}
+      - WATCHER_COLLECTION=${WATCHER_COLLECTION}
+    volumes:
+      - /mnt/scc:/watcher/input
+    entrypoint: ["stigman-watcher"]
+networks:
+  default:
+    name: stigman-orchestration_default
+    external: true
