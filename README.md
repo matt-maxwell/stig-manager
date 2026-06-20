@@ -72,6 +72,9 @@ Each subdirectory contains its own configuration files (`.env`, compose files, e
 - STIG Manager: <https://stig-manager.readthedocs.io>
 - STIG Manager source: <https://github.com/NUWCDIVNPT/stig-manager>
 - STIGMan Watcher: <https://github.com/NUWCDIVNPT/stigman-watcher>
+- Security Content Automation Protocol (SCAP) Compliance Checker: <https://www.niwcatlantic.navy.mil/Technology/SCAP/>
+- SCAP Content Benchmark Library: <https://github.com/niwc-atlantic/scap-content-library>
+- SCAP Compliance Checker: Command Line <https://www.youtube.com/watch?v=_jJjTr60U6k>
 
 ## License
 
